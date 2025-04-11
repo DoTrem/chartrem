@@ -5,10 +5,8 @@ import PieChartIcon from '@mui/icons-material/PieChart';
 import ShowChartIcon from '@mui/icons-material/ShowChart';
 import BubbleChartIcon from '@mui/icons-material/BubbleChart';
 import TimelineIcon from '@mui/icons-material/Timeline';
-import ScatterPlotIcon from '@mui/icons-material/ScatterPlot';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import StackedBarChartIcon from '@mui/icons-material/StackedBarChart';
-import AreaChartIcon from '@mui/icons-material/AreaChart';
 import RadarIcon from '@mui/icons-material/Radar';
 import WaterfallChartIcon from '@mui/icons-material/WaterfallChart';
 import CandlestickChartIcon from '@mui/icons-material/CandlestickChart';
@@ -25,10 +23,15 @@ function MainContent() {
     { icon: <TimelineIcon sx={{ fontSize: 60 }} />, name: 'Χρονοσειρά', description: 'Ανάλυση δεδομένων με την πάροδο του χρόνου' },
     { icon: <DonutLargeIcon sx={{ fontSize: 60 }} />, name: 'Δακτύλιος', description: 'Εναλλακτική εμφάνιση αναλογιών' },
     { icon: <StackedBarChartIcon sx={{ fontSize: 60 }} />, name: 'Σωρευτικό Ραβδόγραμμα', description: 'Σύγκριση πολλαπλών κατηγοριών' },
-    { icon: <AreaChartIcon sx={{ fontSize: 60 }} />, name: 'Διάγραμμα Περιοχής', description: 'Εμφάνιση συνολικών τιμών με την πάροδο του χρόνου' },
+    { icon: <ShowChartIcon sx={{ fontSize: 60 }} />, name: 'Διάγραμμα Περιοχής', description: 'Εμφάνιση συνολικών τιμών με την πάροδο του χρόνου' },
     { icon: <RadarIcon sx={{ fontSize: 60 }} />, name: 'Ραντάρ', description: 'Σύγκριση πολλαπλών μεταβλητών' },
     { icon: <WaterfallChartIcon sx={{ fontSize: 60 }} />, name: 'Καταρράκτης', description: 'Ανάλυση αλλαγών σε τιμές' },
     { icon: <CandlestickChartIcon sx={{ fontSize: 60 }} />, name: 'Κεριά', description: 'Ανάλυση χρηματιστηριακών δεδομένων' },
+    { icon: <BubbleChartIcon sx={{ fontSize: 60 }} />, name: 'Διάγραμμα Φυσαλίδων', description: 'Σύγκριση τριών διαστάσεων δεδομένων' },
+    { icon: <DonutLargeIcon sx={{ fontSize: 60 }} />, name: 'Πολικό Διάγραμμα', description: 'Εμφάνιση κυκλικών δεδομένων' },
+    { icon: <BarChartIcon sx={{ fontSize: 60 }} />, name: 'Διάγραμμα Χωνιού', description: 'Ανάλυση διαδικασιών και ροών' },
+    { icon: <BarChartIcon sx={{ fontSize: 60 }} />, name: 'Χάρτης Θερμότητας', description: 'Οπτικοποίηση πυκνότητας δεδομένων' },
+    { icon: <BarChartIcon sx={{ fontSize: 60 }} />, name: 'Διάγραμμα Δέντρου', description: 'Ιεραρχική αναπαράσταση δεδομένων' },
   ];
 
   const handleChartSelect = () => {
