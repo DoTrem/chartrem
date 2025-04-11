@@ -10,13 +10,13 @@ function Navbar() {
           Chartrem
         </Typography>
         <Button color="inherit" component={RouterLink} to="/">
-          Home
+          Αρχική
         </Button>
         <Button color="inherit" component={RouterLink} to="/data-config">
-          Data Configuration
+          Ρύθμιση Δεδομένων
         </Button>
         <Button color="inherit" component={RouterLink} to="/chart-settings">
-          Chart Settings
+          Ρυθμίσεις Γραφήματος
         </Button>
       </Toolbar>
     </AppBar>
